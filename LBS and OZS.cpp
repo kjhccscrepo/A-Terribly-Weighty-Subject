@@ -43,6 +43,18 @@ int main()
             break;
         }
     }
+
+    
+    if (howmanypounds == 1) {
+        cout << UserOZinput << " oz is the equivalent to " << howmanypounds << " lb and " << MathOZinputVAR << " oz.\n";
+        cout << UserOZinput << " oz is the equivalent to " << poundsdecimal << " lb.\n\n";
+
+        cout << "Thank you for using the OCP!";
+
+        return 0;
+    }
+    else;
+    
     cout << UserOZinput << " oz is the equivalent to " << howmanypounds << " lb(s) and " << MathOZinputVAR << " oz.\n";
     cout << UserOZinput << " oz is the equivalent to " << poundsdecimal << " lb(s).\n\n";
 
