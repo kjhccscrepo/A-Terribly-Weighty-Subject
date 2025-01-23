@@ -28,8 +28,8 @@ int main()
 
     } while (UserOZinput <= 0);
 
-    cout << "\nYou enetered " << UserOZinput << "...\n"
-         << "Converting...\n";
+    cout << "\nYou enetered " << UserOZinput << "...\n\n"
+         << "Converting...\n\n";
 
     poundsdecimal = (UserOZinput / 16);
     MathOZinputVAR = (UserOZinput);
@@ -44,7 +44,7 @@ int main()
         }
     }
     cout << UserOZinput << " oz is the equivalent to " << howmanypounds << " lb(s) and " << MathOZinputVAR << " oz.\n";
-    cout << UserOZinput << " oz is the equivalent to " << poundsdecimal << " lb(s).\n";
+    cout << UserOZinput << " oz is the equivalent to " << poundsdecimal << " lb(s).\n\n";
 
     cout << "Thank you for using the OCP!";
 
